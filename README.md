@@ -32,7 +32,7 @@ API:
 
 #### Structure Example
 
-![Grenache Structure](https://raw.githubusercontent.com/bitfinexcom/grenache-grape/master/doc/structure.png)
+![Grenache Structure](https://raw.githubusercontent.com/bitfinexcom/grenache/master/doc/structure.png)
 
 * client: can both offer/publish or request/subscribe Services
 
