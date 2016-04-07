@@ -1,36 +1,38 @@
 # Grenache
 DHT based high-performance microservices framework, by Bitfinex
 
-### Technology
-* DHT definition: http://www.bittorrent.org/beps/bep_0005.html
+#### Features
+* Decentralised / Distributed architecture
+* Easy Bootstrap
+* Indefinite scalability and shapes
+* High-Performance
 
-#### Definitions
+### Technology
+* [Distributed Hash Table] (http://www.bittorrent.org/beps/bep_0005.html) introduction
+
+#### Structure
 
 ##### 1. Grape: Grenache Discovery Node
 * Grenache Network building
 * DHT interaction APIs for Clients: service discovery, DHT data storage
 
-API:
-* announce Service
-* lookup Service
-* write to DHT
+*Features*
+
+WebSocket API endpoints:
+* Announce a Service
+* Lookup a Service
+* Push data to DHT
 
 ##### 2. Client: Grenache Client implementation on specific Transports
 * Client/Worker: offer/publish and request/subscribe Services
 * Patterns: request/reply, publish/subscribe
 * Transports: ZeroMQ, WebSocket
 
-API:
-* offer/publish Service: create and announce a Service on the DHT
-* request/subscribe Service: find a Service throught the DHT and connect to it
+*Features*
+* Offer / Publish a Service: create and announce a Service on the DHT
+* Request / Subscribe to Service: find a Service throught the DHT and connect to it
 
-
-#### Features
-* Decentralised / Distributed
-* High-Performance
-* Indefinite growth and shapes
-
-#### Structure Example
+#### Practice
 
 ![Grenache Structure](https://raw.githubusercontent.com/bitfinexcom/grenache/master/doc/structure.png)
 
@@ -38,8 +40,14 @@ API:
 
 ### Implementations
 
-##### Grape
+#### Grape
 * https://github.com/bitfinexcom/grenache-grape
+
+#### Clients
+* ZeroMQ transport: super-fast, perfect for internal networks
+* WebSocket transport: great for Internet
+
+Note: At the moment there is no interoperability between WebSocket and ZeroMQ implementations. A Proxy implementation will come later.
 
 ##### Node.JS Clients
 * https://github.com/bitfinexcom/grenache-nodejs-zmq : ZeroMQ based Grape microservices
@@ -47,3 +55,9 @@ API:
 
 ##### Ruby Clients
 * https://github.com/bitfinexcom/grenache-ruby-zmq : ZeroMQ based Grape microservices
+
+### Contribute
+Any contribution in form of question, issue, idea and pull requests is well accepted
+
+### Contacts
+* [Paolo Ardoino] (https://github.com/prdn)
