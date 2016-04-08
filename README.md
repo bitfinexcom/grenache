@@ -16,7 +16,7 @@ DHT based high-performance microservices framework, by Bitfinex
 * Grenache Network building
 * DHT interaction APIs for Clients: service discovery, DHT data storage
 
-*Features*
+**Features**
 
 WebSocket API endpoints:
 * Announce a Service
@@ -28,7 +28,7 @@ WebSocket API endpoints:
 * Patterns: request/reply, publish/subscribe
 * Transports: ZeroMQ, WebSocket
 
-*Features*
+**Features**
 * Offer / Publish a Service: create and announce a Service on the DHT
 * Request / Subscribe to Service: find a Service throught the DHT and connect to it
 
