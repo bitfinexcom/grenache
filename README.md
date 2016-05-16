@@ -54,7 +54,7 @@ Note: At the moment there is no interoperability between WebSocket and ZeroMQ im
 * https://github.com/bitfinexcom/grenache-nodejs-ws : WebSocket based Grape microservices
 
 ##### Ruby Clients
-* https://github.com/bitfinexcom/grenache-ruby-zmq : ZeroMQ based Grape microservices
+* https://github.com/bitfinexcom/grenache-ruby-ws : ZeroMQ based Grape microservices
 
 ### Contribute
 Any contribution in form of question, issue, idea and pull requests is well accepted
