@@ -51,7 +51,7 @@ WebSocket API endpoints:
 * Offer / Publish a Service: create and announce a Service on the DHT
 * Request / Subscribe to Service: find a Service throught the DHT and connect to it
 
-####Practice
+###Practice
 
 ![Grenache Structure](https://raw.githubusercontent.com/bitfinexcom/grenache/master/doc/structure.png)
 
