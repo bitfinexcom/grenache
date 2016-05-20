@@ -10,7 +10,7 @@ DHT based high-performance microservices framework, by Bitfinex
 ### Technology
 * [Distributed Hash Table] (http://www.bittorrent.org/beps/bep_0005.html) introduction
 
-#### Structure
+#### Parts
 
 ##### 1. Grape: Grenache Discovery Node
 * Grenache Network building
@@ -40,7 +40,7 @@ WebSocket API endpoints:
 
 ### Implementations
 
-#### Grape
+#### Grape (the core)
 * https://github.com/bitfinexcom/grenache-grape
 
 #### Clients
