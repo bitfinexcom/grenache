@@ -12,18 +12,28 @@ DHT based high-performance microservices framework, by Bitfinex
 #### Grape (the core)
 * https://github.com/bitfinexcom/grenache-grape
 
-#### Clients
+#### Peer Implementations
+
+Transports:
+* WebSocket transport: super-fast, great for Internet
+* HTTP transport: great for Internet
 * ZeroMQ transport: super-fast, perfect for internal networks
-* WebSocket transport: great for Internet
+
+Patterns:
+* PUB/GET: put/get data to/from the DHT
+* RPC: simple and efficient RPC pattern
+* PUB/SUB: (Work In Progress)
 
 Note: At the moment there is no interoperability between WebSocket and ZeroMQ implementations. A Proxy implementation will come later.
 
 ##### Node.JS Clients
-* https://github.com/bitfinexcom/grenache-nodejs-zmq : ZeroMQ based Grape microservices
 * https://github.com/bitfinexcom/grenache-nodejs-ws : WebSocket based Grape microservices
+* https://github.com/bitfinexcom/grenache-nodejs-http : HTTP based Grape microservices
+* https://github.com/bitfinexcom/grenache-nodejs-zmq : ZeroMQ based Grape microservices
 
 ##### Ruby Clients
 * https://github.com/bitfinexcom/grenache-ruby-ws : WebSocket based Grape microservices
+* https://github.com/bitfinexcom/grenache-ruby-http : HTTP based Grape microservices
 
 
 ### Background
@@ -45,7 +55,7 @@ WebSocket API endpoints:
 ##### 2. Client: Grenache Client implementation on specific Transports
 * Client/Worker: offer/publish and request/subscribe Services
 * Patterns: request/reply, publish/subscribe
-* Transports: ZeroMQ, WebSocket
+* Transports: WebSocket, HTTP, ZeroMQ
 
 **Features**
 * Offer / Publish a Service: create and announce a Service on the DHT
