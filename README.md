@@ -37,7 +37,7 @@ Note: At the moment there is no interoperability between WebSocket and ZeroMQ im
 
 
 ### Background
-* [Distributed Hash Table] (http://www.bittorrent.org/beps/bep_0005.html) introduction
+* [Distributed Hash Table](http://www.bittorrent.org/beps/bep_0005.html) introduction
 
 #### Composition
 
@@ -61,7 +61,7 @@ WebSocket API endpoints:
 * Offer / Publish a Service: create and announce a Service on the DHT
 * Request / Subscribe to Service: find a Service throught the DHT and connect to it
 
-###Practice
+### Practice
 
 ![Grenache Structure](https://raw.githubusercontent.com/bitfinexcom/grenache/master/doc/structure.png)
 
@@ -71,4 +71,4 @@ WebSocket API endpoints:
 Any contribution in form of question, issue, idea and pull requests is well accepted
 
 ### Contacts
-* [Paolo Ardoino] (https://github.com/prdn)
+* [Paolo Ardoino](https://github.com/prdn)
