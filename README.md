@@ -50,6 +50,7 @@ Note: At the moment there is no interoperability between WebSocket and ZeroMQ im
 ### Background
 * [Distributed Hash Table](http://www.bittorrent.org/beps/bep_0005.html) introduction
 * [Kademlia on Wikipedia](https://en.wikipedia.org/wiki/Kademlia)
+* [Kademlia: A Peer-to-Peer Information System Based on the XOR Metric](http://www.ic.unicamp.br/~bit/ensino/mo809_1s13/papers/P2P/Kademlia-%20A%20Peer-to-Peer%20Information%20System%20Based%20on%20the%20XOR%20Metric%20.pdf)
 
 #### Composition
 
