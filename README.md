@@ -1,5 +1,15 @@
 # Grenache
-DHT based high-performance microservices framework, by Bitfinex
+
+Grenache is a DHT based high-performance microservices framework by Bitfinex.
+Its decentralised and optimized for performance. Because its simple, it is easy
+to understand and to set up.
+
+Grenache uses Distributed Hashtables, known from Bittorrent, to build a network between peers.
+Its based on [Kademlia](https://en.wikipedia.org/wiki/Kademlia).
+
+Peers can send each other commands (RPC), and they can also store values in the DHT.
+Pub/Sub is also possible.
+
 
 #### Features
 * Decentralised / Distributed architecture
@@ -30,6 +40,7 @@ Note: At the moment there is no interoperability between WebSocket and ZeroMQ im
 * https://github.com/bitfinexcom/grenache-nodejs-ws : WebSocket based Grape microservices
 * https://github.com/bitfinexcom/grenache-nodejs-http : HTTP based Grape microservices
 * https://github.com/bitfinexcom/grenache-nodejs-zmq : ZeroMQ based Grape microservices
+* https://github.com/bitfinexcom/grenache-nodejs-ws-tls : WebSocket based Grape microservices with TLS support
 
 ##### Ruby Clients
 * https://github.com/bitfinexcom/grenache-ruby-ws : WebSocket based Grape microservices
@@ -38,6 +49,8 @@ Note: At the moment there is no interoperability between WebSocket and ZeroMQ im
 
 ### Background
 * [Distributed Hash Table](http://www.bittorrent.org/beps/bep_0005.html) introduction
+* [Kademlia on Wikipedia](https://en.wikipedia.org/wiki/Kademlia)
+* [Kademlia: A Peer-to-Peer Information System Based on the XOR Metric](http://www.ic.unicamp.br/~bit/ensino/mo809_1s13/papers/P2P/Kademlia-%20A%20Peer-to-Peer%20Information%20System%20Based%20on%20the%20XOR%20Metric%20.pdf)
 
 #### Composition
 
