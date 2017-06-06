@@ -1,4 +1,4 @@
-# Grenache
+<img alt="Grenache Logo" width="50%" src="logos/logo-full-rect-black.png" />
 
 Grenache is a DHT based high-performance microservices framework by Bitfinex.
 Its decentralised and optimized for performance. Because its simple, it is easy
