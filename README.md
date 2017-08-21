@@ -54,6 +54,7 @@ Note: At the moment there is no interoperability between WebSocket and ZeroMQ im
 * https://github.com/bitfinexcom/grenache-nodejs-http : HTTP based Grape microservices
 * https://github.com/bitfinexcom/grenache-nodejs-zmq : ZeroMQ based Grape microservices
 * https://github.com/bitfinexcom/grenache-nodejs-ws-tls : WebSocket based Grape microservices with TLS support
+* https://github.com/bitfinexcom/grenache-nodejs-link : HTTP based connections to the DHT
 
 #### Ruby Clients
 * https://github.com/bitfinexcom/grenache-ruby-ws : WebSocket based Grape microservices
