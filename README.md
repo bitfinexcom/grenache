@@ -1,11 +1,11 @@
 <img alt="Grenache Logo" width="50%" src="logos/logo-full-rect-black.png" />
 
 Grenache is a DHT based high-performance microservices framework by Bitfinex.
-Its decentralised and optimized for performance. Because its simple, it is easy
+It's decentralised and optimized for performance. Because it's simple, it's easy
 to understand and to set up.
 
 Grenache uses Distributed Hashtables, known from Bittorrent, to build a network between peers.
-Its based on [Kademlia](https://en.wikipedia.org/wiki/Kademlia).
+It's based on [Kademlia](https://en.wikipedia.org/wiki/Kademlia).
 
 Peers can send each other commands (RPC), and they can also store values in the DHT.
 Pub/Sub is also possible.
