@@ -18,6 +18,7 @@ The [Grenache Ecosystem](#implementations) supports Ruby and Node.js. There are 
  - [Implementations](#implementations)
  - [Grape Network Composition](#grape-network-composition)
  - [Grenache in Action: a RPC example](#grenache-in-action-a-rpc-example)
+ - [Articles](#articles)
  - [Background](#background)
  - [Contribute](#contribute)
  - [Contacts](#contacts)
@@ -109,6 +110,11 @@ Finally the client connects to both workers, who are executing the command and s
 
 <img alt="Step 4: worker announces service" src="doc/RPC-Step-4.png" width="60%" />
 
+## Articles
+
+ * http://blog.bitfinex.com/tutorial/bitfinex-loves-microservices-grenache/
+ * https://medium.com/bitfinex/introducing-svc-js-a-framework-for-grenache-7119f2d7769e
+ * http://blog.bitfinex.com/tutorial/grenache-cli-command-line-interface/
 
 ## Background
 
