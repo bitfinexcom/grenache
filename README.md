@@ -44,7 +44,7 @@ Transports:
 * ZeroMQ transport: super-fast, perfect for internal networks
 
 Patterns:
-* PUB/GET: put/get data to/from the DHT
+* PUT/GET: put/get data to/from the DHT
 * RPC: simple and efficient RPC pattern
 * PUB/SUB: (Work In Progress)
 
@@ -101,7 +101,7 @@ Our workers announce their service to the DHT:
 
 <img alt="Step 1: worker announces service" src="doc/RPC-Step-1.png" width="60%" />
 
-Now peers can make use of the service and send commands to a service. They send send their remote command to the DHT.
+Now peers can make use of the service and send commands to a service. They send their remote command to the DHT.
 
 <img alt="Step 2: worker announces service" src="doc/RPC-Step-2.png" width="60%" />
 
